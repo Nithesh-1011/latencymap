@@ -1,0 +1,23 @@
+{
+  "name": "latencymap",
+  "version": "1.0.0",
+  "description": "Multi-region endpoint latency mapper",
+  "bin": {
+    "latencymap": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.0.0",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.4.0"
+  }
+}

@@ -1,0 +1,6 @@
+name = "latencymap-agent"
+main = "src/handler.ts"
+compatibility_date = "2024-03-01"
+
+[vars]
+ENVIRONMENT = "production"
